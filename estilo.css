@@ -1,0 +1,86 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(149, 215, 236);
+}
+header img{
+    margin: 40px 84px;
+}
+textarea:focus, input:focus{
+    outline: 0;
+}
+textarea {
+    resize: none;
+  }
+.input_area{
+    margin: 5px 200px;
+    display: inline-flex;
+}
+
+.mensaje_desencriptado{
+    margin: 0 0 0 150px;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.mensaje_de{
+    padding: 20px 30px;
+    background-color: antiquewhite;
+    border-style: none;
+    border-radius: 20px;
+}
+
+.mensaje_en{
+    background-color:  rgb(149, 215, 236);
+    border-style: none;
+}
+.mensaje_en::placeholder{
+    font-weight: bold;
+    opacity: 1.5;
+}
+.info{
+    width: 14px;
+    padding-top: 5px;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+.botones{
+    width: auto;
+    margin: 10px;
+}
+.boton1 {
+    background-color: darkblue;
+    color: white;
+    padding: 20px 90px;
+    margin: 0 0 0 35px;
+} 
+.boton2 {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    padding: 20px 90px;
+    margin: 0 0 0 100px;
+}
+
+.boton3{
+    background-color: teal;
+    padding: 20px 90px;
+    margin: 0 0 0 240px;
+}
+
+footer{
+	text-align: center;
+	padding: 100px;
+}
