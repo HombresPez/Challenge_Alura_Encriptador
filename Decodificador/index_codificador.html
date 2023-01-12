@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="estilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1><img src="imagenes/Logo.png" alt="Logo Alura"></h1>
+        </header>
+        <main>
+            <section class="input_area">
+                <div class="mensaje_escrito">
+                    <textarea name="mensaje" cols="55" rows="20" id="mensaje" placeholder="Ingrese el Texto aquí" class="mensaje_en" required style="font-size: 19pt"></textarea>
+                    <br><img src="imagenes/info.png" class="info"> Solo letras minúsculas y sin acentos.
+                    <div class="botones">
+                        <br><button class="boton1" onclick="codif()">Encriptar</button>
+                        <button class="boton2" onclick="decodif()">Desencriptar</button>
+                    </div>
+                </div>
+                <div class="mensaje_desencriptado">
+                    <textarea name="desencrip" rows="20" cols="45" readonly required style="font-size: 19pt" id="desencrip" class="mensaje_de"></textarea>
+                    <br><button class="boton3" onclick="copy()">Copiar</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p class="copyright">&copy Copyright Bruno Santiago Mendoza Flores - 2022</p>
+        </footer>
+    </body>
+
+
+
+
+
+</html>
